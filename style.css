@@ -54,7 +54,7 @@ body {
 
 .welcome button {
     margin-top: 25px;
-    background-color: #3882F6;
+    background-color: #c47804;
     font-size: 20px;
     padding: 10px;
     text-align: center;
@@ -66,10 +66,87 @@ body {
 
 .section1 img {
     float: right;
-    width: 600px;
+    max-width: 100%;
+    max-height: 100%;
 }
 
-.image {
+.top_image {
     flex: 1 1 0;
     align-self: center;
+    margin-left: 35px;
+}
+
+
+.section2 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 70px 400px;
+    text-align: center;
+}
+
+.info_pics {
+    display: flex;
+    max-width: 100%;
+    justify-content: center;
+    gap: 40px;
+    flex-grow: 1;
+    padding: 30px;
+
+}
+
+.info_pic {
+    flex: 1;
+    margin-bottom: 15px;
+    text-decoration: none;
+    color: black;
+}
+
+.info_pic img {
+    max-width: 100%;
+    border-radius: 10%;
+    border: 5px solid #c47804;
+
+    margin-bottom: 15px;
+}
+
+
+
+.section3 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #2b89b05e;
+    padding: 70px;
+    
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+}
+
+.section4 {
+    display: flex;
+    justify-content: space-between;
+    background-color: #eebf78;
+    margin: 100px 300px;
+    padding: 50px 100px;
+    color: white;
+    border-radius: 10px;
+}
+
+.section4 button {
+
+    font-size: 20px;
+    padding: 0 30px;
+    text-align: center;
+    border: 2px solid white;
+    color: white;
+    background-color: #eebf78;
+    border-radius: 12px; 
+    font-weight: bold;
 }
